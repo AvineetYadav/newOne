@@ -1,5 +1,5 @@
 /public
-/db.json
-/package-lock.json
-/tailwind.config.js
+db.json
+package-lock.json
+tailwind.config.js
 /node_modules
