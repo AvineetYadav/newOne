@@ -2,8 +2,8 @@ Features.
 
 -- CourseListingPage ✅
 -- CourseDetailsPage ✅
--- StudentDashBoard 
--- StudentSignInDeatil 
+-- StudentDashBoard ✅
+-- StudentSignInDeatil  ✅
 
 -- TO Start the Application -- (npm run start:all) 
 
