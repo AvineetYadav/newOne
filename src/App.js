@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import Header from "./Components/Header";
+import Body from "./Components/Body";
+import CourseListingPage from "./Components/CourseListingPage";
+import CourseDetailsPage from "./Components/CourseDetailsPage";
+import DashBoard from "./Components/DashBoard";
+import { Provider } from "react-redux";
+import SignIn from "./Components/SignIn";
+import appStore from "./Redux/appStore";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Provider store={appStore}>
+      <div className="App">
+        <Header />
+        <Outlet />
+      </div>
+    </Provider>
   );
-}
+};
 
-export default App;
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: [
+      { path: "/", element: <Body /> },
+      { path: "/signIn", element: <SignIn/> },
+      { path: "/courselistingpage", element: <CourseListingPage /> },
+      { path: "/coursedetailspage/:useId", element: <CourseDetailsPage /> },
+      { path: "/dashboard", element: <DashBoard /> },
+    ],
+  },
+]);
+
+export default function Root() {
+  return <RouterProvider router={router} />;
+}

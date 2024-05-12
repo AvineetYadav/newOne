@@ -1,0 +1,360 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "name": "Introduction to React Native",
+      "instructor": "John Doe",
+      "description": "Learn the basics of React Native development and build your first mobile app.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/4924754_684d_6.jpg",
+      "level": "Beginner",
+      "duration": "4-6 weeks",
+      "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "key":"6oFuwhIibo4",
+      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "skillsGained": [
+        "React Native development",
+        "Building mobile apps",
+        "UI/UX design",
+        "Debugging and troubleshooting"
+      ],
+      "rating": "4.4",
+      "reviews": "1.8k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to React Native",
+          "content": "Overview of React Native, setting up your development environment."
+        },
+        {
+          "week": 2,
+          "topic": "Building Your First App",
+          "content": "Creating a simple mobile app using React Native components."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "2",
+      "name": "Advanced JavaScript Concepts",
+      "instructor": "Jane Smith",
+      "description": "Learn advanced JavaScript concepts like closures, prototypes, and async programming.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/851712_fc61_6.jpg",
+      "level": "Intermediate",
+      "duration": "6-8 weeks",
+      "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+       "key":"lkIFF4maKMU",
+      "prerequisites": ["Intermediate JavaScript knowledge"],
+      "skillsGained": [
+        "Advanced JavaScript concepts",
+        "Async programming",
+        "Functional programming",
+        "Error handling"
+      ],
+      "rating": "4.5",
+      "reviews": "1.5k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Closures and Scope",
+          "content": "Understanding closure and lexical scope."
+        },
+        {
+          "week": 2,
+          "topic": "Prototypes and Inheritance",
+          "content": "Exploring JavaScript prototypes and prototypal inheritance."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "3",
+      "name": "Python for Data Science",
+      "instructor": "Emily Johnson",
+      "description": "Master Python programming for data science and machine learning.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/1213952_e17d_2.jpg",
+      "level": "Intermediate",
+      "duration": "8-10 weeks",
+      "schedule": "Fridays, 6:00 PM - 9:00 PM",
+      "location": "Online",
+      "key":"xC-c7E5PK0Y",
+      "prerequisites": ["Basic Python knowledge"],
+      "skillsGained": [
+        "Python programming for data science",
+        "Data manipulation with Pandas",
+        "Data visualization",
+        "Machine learning basics"
+      ],
+      "rating": "4.6",
+      "reviews": "1.2k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Python for Data Science",
+          "content": "Overview of Python programming language and its applications in data science."
+        },
+        {
+          "week": 2,
+          "topic": "Data Manipulation with Pandas",
+          "content": "Introduction to Pandas library for data manipulation and analysis."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "4",
+      "name": "Web Development Bootcamp",
+      "instructor": "Michael Brown",
+      "description": "Become a full-stack web developer by learning HTML, CSS, JavaScript, and Node.js.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/3655840_1c3c.jpg",
+      "level": "Intermediate",
+      "duration": "10-12 weeks",
+      "schedule": "Saturdays and Sundays, 10:00 AM - 2:00 PM",
+      "location": "Online",
+      "key":"WR1ydijTx5E",
+      "prerequisites": ["None"],
+      "skillsGained": [
+        "HTML development",
+        "CSS styling",
+        "JavaScript programming",
+        "Node.js backend development"
+      ],
+      "rating": "4.7",
+      "reviews": "2.3k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "HTML Fundamentals",
+          "content": "Introduction to HTML and building web pages."
+        },
+        {
+          "week": 2,
+          "topic": "CSS Basics",
+          "content": "Styling web pages using CSS."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "5",
+      "name": "Machine Learning Fundamentals",
+      "instructor": "Alex Turner",
+      "description": "Explore the fundamentals of machine learning algorithms and applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/5655756_50d9_10.jpg",
+      "level": "Intermediate",
+      "duration": "8-10 weeks",
+      "schedule": "Thursdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+       "key":"PeMlggyqz0Y",
+      "prerequisites": [
+        "Basic Python knowledge",
+        "Familiarity with mathematics"
+      ],
+      "skillsGained": [
+        "Machine learning algorithms",
+        "Data preprocessing",
+        "Model evaluation",
+        "Supervised and unsupervised learning"
+      ],
+      "rating": "4.3",
+      "reviews": "1.2k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Machine Learning",
+          "content": "Overview of machine learning concepts and applications."
+        },
+        {
+          "week": 2,
+          "topic": "Supervised Learning",
+          "content": "Introduction to supervised learning algorithms."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "6",
+      "name": "Digital Marketing Strategy",
+      "instructor": "Sophia Lee",
+      "description": "Learn digital marketing strategies to grow your business online.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/5675720_55ec.jpg",
+      "level": "Beginner",
+      "duration": "6-8 weeks",
+      "schedule": "Tuesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+       "key":"UVAyIh5V4NY",
+      "prerequisites": ["Basic knowledge of marketing principles"],
+      "skillsGained": [
+        "Social media marketing",
+        "Content marketing",
+        "SEO and SEM",
+        "Email marketing"
+      ],
+      "rating": "4.8",
+      "reviews": "1.9k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Digital Marketing",
+          "content": "Overview of digital marketing channels and strategies."
+        },
+        {
+          "week": 2,
+          "topic": "Content Marketing",
+          "content": "Creating and distributing valuable content to attract and engage customers."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "7",
+      "name": "Graphic Design Fundamentals",
+      "instructor": "David Martinez",
+      "description": "Master the fundamentals of graphic design and visual communication.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/1643044_e281_5.jpg",
+      "level": "Beginner",
+      "duration": "6-8 weeks",
+      "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+       "key":"UmHMVU6dceA",
+      "prerequisites": ["None"],
+      "skillsGained": [
+        "Principles of graphic design",
+        "Typography",
+        "Layout design",
+        "Color theory"
+      ],
+      "rating": "4.6",
+      "reviews": "1.5k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Graphic Design",
+          "content": "Understanding the principles of graphic design."
+        },
+        {
+          "week": 2,
+          "topic": "Typography and Layout",
+          "content": "Exploring typography and layout design principles."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "8",
+      "name": "iOS App Development",
+      "instructor": "Ryan Adams",
+      "description": "Learn iOS app development using Swift programming language and Xcode IDE.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/2460442_4106_7.jpg",
+      "level": "Intermediate",
+      "duration": "8-10 weeks",
+      "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+      "location": "Online",
+       "key":"J4xNhYeaGkI",
+      "prerequisites": ["Basic programming knowledge"],
+      "skillsGained": [
+        "iOS app development",
+        "Swift programming",
+        "User interface design",
+        "App deployment"
+      ],
+      "rating": "4.4",
+      "reviews": "1.6k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to iOS Development",
+          "content": "Overview of iOS development environment and tools."
+        },
+        {
+          "week": 2,
+          "topic": "Swift Programming Basics",
+          "content": "Introduction to Swift programming language."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "9",
+      "name": "Cybersecurity Essentials",
+      "instructor": "Daniel Johnson",
+      "description": "Learn essential cybersecurity concepts and techniques to protect systems and data.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/3654420_6ef3_8.jpg",
+      "level": "Intermediate",
+      "duration": "6-8 weeks",
+      "schedule": "Fridays, 6:00 PM - 8:00 PM",
+      "location": "Online",
+      "key":"JbEPJv7Ybcs",
+      "prerequisites": ["Basic computer knowledge"],
+      "skillsGained": [
+        "Network security",
+        "Cryptography",
+        "Ethical hacking",
+        "Security protocols"
+      ],
+      "rating": "4.7",
+      "reviews": "1.3k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Cybersecurity",
+          "content": "Overview of cybersecurity threats and challenges."
+        },
+        {
+          "week": 2,
+          "topic": "Network Security",
+          "content": "Understanding network security protocols and techniques."
+        }
+      ],
+      "students": []
+    },
+    {
+      "id": "10",
+      "name": "Artificial Intelligence Basics",
+      "instructor": "Sarah Miller",
+      "description": "Explore the fundamentals of artificial intelligence and its applications.",
+      "enrollmentStatus": "Open",
+      "thumbnail": "https://img-c.udemycdn.com/course/750x422/2915852_65b9_9.jpg",
+      "level": "Intermediate",
+      "duration": "6-8 weeks",
+      "schedule": "Wednesdays, 7:00 PM - 9:00 PM",
+      "location": "Online",
+       "key":"J4RqCSD--Dg",
+      "prerequisites": [
+        "Basic programming knowledge",
+        "Familiarity with linear algebra"
+      ],
+      "skillsGained": [
+        "Artificial intelligence fundamentals",
+        "Machine learning concepts",
+        "Neural networks",
+        "Deep learning basics"
+      ],
+      "rating": "4.2",
+      "reviews": "1.1k",
+      "syllabus": [
+        {
+          "week": 1,
+          "topic": "Introduction to Artificial Intelligence",
+          "content": "Overview of AI concepts and history."
+        },
+        {
+          "week": 2,
+          "topic": "Machine Learning Basics",
+          "content": "Understanding machine learning algorithms and models."
+        }
+      ],
+      "students": []
+    }
+  ]
+}
