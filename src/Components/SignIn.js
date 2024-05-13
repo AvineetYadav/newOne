@@ -40,8 +40,8 @@ const SignIn = () => {
 
   const handleChange = () => {
     const message = checkValiDate(
-      emailRef.current.value,
-      passwordRef.current.value
+      emailRef?.current?.value,
+      passwordRef?.current?.value
     );
     if (message) {
       setError(message);
@@ -51,10 +51,10 @@ const SignIn = () => {
     if (!login) {
       createUserWithEmailAndPassword(
         auth,
-        emailRef.current.value,
-        passwordRef.current.value
+        emailRef?.current?.value,
+        passwordRef?.current?.value
       ).then((userCredential) => {
-        const user = userCredential.user;
+        const user = userCredential?.user;
         dispatch(
           addUser({
             uid: user.uid,
@@ -65,8 +65,8 @@ const SignIn = () => {
     } else {
       signInWithEmailAndPassword(
         auth,
-        emailRef.current.value,
-        passwordRef.current.value
+        emailRef?.current?.value,
+        passwordRef?.current?.value
       )
         .then((userCredential) => {
         })
