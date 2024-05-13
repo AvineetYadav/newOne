@@ -92,9 +92,9 @@ const CourseDetailsPage = () => {
                   <ul className="border p-3 mt-2 space-y-5">
                     {selectedCourse?.syllabus?.map((item, index) => (
                       <li key={index}>
-                        <p>Week: {item.week}</p>
-                        <p>Topic: {item.topic}</p>
-                        <p>Content: {item.content}</p>
+                        <p>Week: {item?.week}</p>
+                        <p>Topic: {item?.topic}</p>
+                        <p>Content: {item?.content}</p>
                       </li>
                     ))}
                   </ul>

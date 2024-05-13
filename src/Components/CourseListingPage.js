@@ -38,7 +38,7 @@ const CourseListingPage = () => {
             type="text"
             placeholder="Search courses by name..."
             value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
+            onChange={(e) => setSearchQuery(e?.target?.value)}
             className="p-2 border-2 w-full md:w-64 border-black rounded"
           />
           {searchQuery && (
@@ -58,7 +58,7 @@ const CourseListingPage = () => {
       <div className="flex justify-center pb-24">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
           {filteredData?.map((details) => (
-            <Link to={`/coursedetailspage/${details?.id}`} key={details.id}>
+            <Link to={`/coursedetailspage/${details?.id}`} key={details?.id}>
               <div onClick={() => handleClick(details)} className="m-2">
                 <Cards info={details} />
               </div>

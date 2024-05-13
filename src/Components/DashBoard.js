@@ -8,7 +8,7 @@ import { useNavigate } from "react-router-dom";
 const Dashboard = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const user = useSelector((store) => store.user.User);
+  const user = useSelector((store) => store?.user?.User);
   const enrolledCourses = useSelector((state) => state?.data?.enrolledCourses);
 
   const handleClick = () => {
@@ -41,7 +41,7 @@ const Dashboard = () => {
         {user ? (
           <div>
             <div className="flex items-center justify-between">
-              <h2 className="md:text-lg font-bold"> User : {user.email}</h2>
+              <h2 className="md:text-lg font-bold"> User : {user?.email}</h2>
               <h2 className="md:text-lg font-bold cursor-pointer" onClick={handleClick}>
                 Sign Out
               </h2>
@@ -54,24 +54,24 @@ const Dashboard = () => {
                 <ul className="course-list grid grid-cols-1 md:grid-cols-2 gap-4">
                   {enrolledCourses?.map((course) => (
                     <li
-                      key={course.id}
+                      key={course?.id}
                       className="course-item bg-white p-4 rounded-md shadow-md hover:shadow-lg"
                     >
                       <div className="course-info flex flex-col md:flex-row gap-4">
                         <img
-                          src={course.thumbnail}
-                          alt={course.name}
+                          src={course?.thumbnail}
+                          alt={course?.name}
                           className="course-thumbnail w-full md:w-1/3 object-cover rounded-md"
                         />
                         <div className="course-details">
                           <p className="course-name text-xl font-bold">
-                            Course Name: {course.name}
+                            Course Name: {course?.name}
                           </p>
                           <p className="course-instructor text-gray-600">
-                            Instructor: {course.instructor}
+                            Instructor: {course?.instructor}
                           </p>
                           <p className="course-due-date text-gray-600">
-                            Due Date: {course.duration}
+                            Due Date: {course?.duration}
                           </p>
                         </div>
                       </div>
